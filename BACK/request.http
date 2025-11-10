@@ -6,8 +6,8 @@ POST http://localhost:3001/api/nota
 Content-Type: application/json
 
 {
-    "title": "Nota 1",
-    "description": "Descripcion nota 1"
+    "title": "Nota Prueba 1",
+    "description": "Descripcion nota prueba 1"
 }
 ###
 DELETE http://localhost:3001/api/nota/1234
