@@ -1,0 +1,20 @@
+GET http://localhost:3001/api/nota
+###
+GET http://localhost:3001/api/nota/1234
+###
+POST http://localhost:3001/api/nota
+Content-Type: application/json
+
+{
+    "title": "Nota 1",
+    "description": "Descripcion nota 1"
+}
+###
+DELETE http://localhost:3001/api/nota/1234
+###
+PUT http://localhost:3001/api/nota/1234
+Content-Type: application/json
+
+{
+    "title": "Nota editada"
+}
